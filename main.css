@@ -1,29 +1,38 @@
-body{
-    background-color: #a5a5a5;
-    height: 100 vh;
+
+header {
+    width: 100%;
+    height: 80px;
 }
 
-.parent-container {
-    width: 70vw;
-    height: 70vh;
-    background-color: teal;
+header > div {
+    max-width: 1400px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.first-child {
-    height: 100px;
-    width: 100px;
-    background-color: tomato;
+header img {
+    width: 60px;
 }
 
-.second-child {
-    height: 100px;
-    width: 100px;
-    background-color: magenta;
+header nav {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
 }
 
+nav > a {
+    color: black;
+    /* text-decocation: none; */
+    font-size: 18px;
+}
 
+button{
+    background-image: url('./spaceXimages/SpaceX-logo-transparent.png');
+}
 
 .bar1, .bar2, .bar2 {
     width: 35px;
@@ -31,6 +40,9 @@ body{
     background-color: black;
     margin: 6px 0;
     transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .change .bar1 {
@@ -50,20 +62,6 @@ body{
     cursor: pointer;
 }
 
-
-
-/* .header-spaceX-logo{
-
-}
-
-.header nav {
-
-}
-
-.header-hamburger {
-
-
-} */
 
 .content{
     display: block;
@@ -107,3 +105,45 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+
+
+/* body{
+    background-color: #a5a5a5;
+    height: 100 vh;
+}
+
+.parent-container {
+    width: 70vw;
+    height: 70vh;
+    background-color: teal;
+    margin: 0 auto;
+    margin-top: 15vh;
+} */
+/* .first-child {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+
+.second-child {
+    height: 100px;
+    width: 100px;
+    background-color: magenta;
+} */
+
+
+/* .header-spaceX-logo{
+
+}
+
+.header nav {
+
+}
+
+.header-hamburger {
+
+
+} */
