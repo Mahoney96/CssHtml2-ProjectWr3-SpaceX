@@ -10,7 +10,23 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div class="parent-container">
+        <div class="first-child"></div>
+        <div class="second-child"></div>
+
+    </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <header class= "">
         <div>
             <nav>
                 <button onclick="window.location.href='https://www.spacex.com/'">
@@ -22,7 +38,10 @@
                 <a ref="#">HUMAN SPACE FLIGHT</a>
                 <a ref="#">RIDESHARE</a>
             </div>    
-            <div class="header-hamburger">
+            <div class="menu-hamburger" onclick="dropDownMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
             </nav>
         
@@ -48,7 +67,11 @@
     <div class="content box-5">
     
     </div>
-
+    <script>
+        function dropDownMenu(x) {
+            x.classList.toggle("change");
+        }
+    </script>
     
 </body>
 </html>
