@@ -2,34 +2,44 @@ header {
 
 }
 
-header-inner{
+.header-inner{
 
 }
 
-header-spaceX-logo{
+.header-spaceX-logo{
 
 }
 
-header nav {
+.header nav {
 
 }
 
-header-hamburger {
+.header-hamburger {
 
 }
 
-content-box-1{
+.content-box-1{
     
 }
-content-box-2{
+.content-box-2{
 
 }
-content-box-3{
+.content-box-3{
 
 }
-content-box-4{
+.content-box-4{
 
 }
-content-box-5{
+.content-box-5{
 
+}
+
+
+.content > div img{
+    width: 175px;
+}
+
+.row > div {
+    flex-direction: row;
+    justify-content: space-between;
 }
