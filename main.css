@@ -15,26 +15,28 @@ header > div {
 }
 
 header img {
-    width: 60px;
+    width: 80px;
+    display: flex;
+    flex-direction: ;
+
+
 }
 
 header nav {
-    display: flex;
     width: 90vw;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav > a {
     color: black;
     /* text-decocation: none; */
     font-size: 18px;
+    display: flex;
+    flex-direction: center;
 }
 
-button{
-    background-image: url('./spaceXimages/SpaceX-logo-transparent.png');
-}
-
-.bar1, .bar2, .bar2 {
+.bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
     background-color: black;
@@ -46,19 +48,20 @@ button{
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, -6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, -6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-    -webkit-transform: rotate(-45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .menu-burger{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
 }
 
